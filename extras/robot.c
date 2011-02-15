@@ -5,7 +5,9 @@
  * receives udp packets from iphone app and controls the iRobot Create
  * via serial interface.
  *
- * usage: ./robot ip_address port_number serial_port
+ * compile: gcc -lcreateoi robot.c -o robot.out
+ * usage: ./robot ip_address port_number serial_port	
+ * (the iphone app uses 1337 as the destination port)
  *
  */
 
